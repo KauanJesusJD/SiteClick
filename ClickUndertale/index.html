@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Undertale</title>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content="titulo:Undertale, testando o evento click data: 25/02/23"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="shortcut icon" href="img/almavermelha.png"/>
+</head>
+<body>
+	<h1 id="titulo">O SUBSOLO</h1>
+	<br><br>
+	<p id="descricao">Clique na alma vazia abaixo para definir sua alma verdadeira</p><br>
+	
+	<img id="Almas" src="img/almavazia.png"/>
+	<script>
+		const myimage = document.querySelector("img#Almas");
+		myimage.addEventListener("click",  function  () {
+		var result = Math.floor(Math.random() * 10 + 1);
+		if (result == 1) {
+			myimage.setAttribute("src","img/almavazia.png");
+ 		}else if (result == 2){
+				myimage.setAttribute("src","img/almaamarela.png");
+			}else if (result == 3){
+					myimage.setAttribute("src","img/almaarcoiris.png");
+				}else if (result == 4){
+						myimage.setAttribute("src","img/almaazul.png");
+					}else if (result == 5){
+							myimage.setAttribute("src","img/almaciano.png");
+						}else if (result == 6){
+								myimage.setAttribute("src","img/almalaranja.png");
+							}else if (result == 7){
+									myimage.setAttribute("src","img/almarosa.png");
+								}else if (result == 8){
+										myimage.setAttribute("src","img/almaroxa.png");
+									}else if (result == 9){
+											myimage.setAttribute("src","img/almaverde.png");
+										}else if (result == 10){
+											 myimage.setAttribute("src","img/almavermelha.png");
+											}});
+		
+		
+		
+		
+		
+		
+			
+	</script>
+	
+	<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+	background-image: URL(../img/fundoU.png);
+	background-repeat: no-repeat;
+	
+}
+
+#titulo {
+	font-family:Comic sans MS;
+	text-align:center;
+	text-decoration:underline;
+	color:#FF0000;
+}
+
+#descricao {
+	font-family:Comic sans MS;
+	text-align:center;
+	color:white;
+	
+}
+
+#Almas {
+	width: 200px;
+	height: 200px;
+	margin: 0px 0px 0px 580px;
+	
+	
+}
+
